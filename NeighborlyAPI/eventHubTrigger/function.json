@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "lab2-eventhubinstance", 
+	  "connection": "Endpoint=sb://lab2-eventhub.servicebus.windows.net/;SharedAccessKeyName=mypolicy;SharedAccessKey=N+Lf38L37unJJm9D+LAWi9GsnudcDWT6LxdlIjmXPBM=;EntityPath=lab2-eventhubinstance"
+    }
+  ]
+}
+
